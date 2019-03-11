@@ -1,5 +1,5 @@
 {
-  "name": "plugin-1-lerna",
+  "name": "fangbinwei-plugin-1-lerna",
   "version": "2.0.0",
   "description": "> TODO: description",
   "author": "fangbinwei <fangbinwei@yeah.net>",
@@ -14,7 +14,7 @@
     "lib"
   ],
   "publishConfig": {
-    "registry": "https://registry.npm.taobao.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,6 @@
   },
   "bugs": {
     "url": "https://github.com/fangbinwei/lerna_demo/issues"
-  }
+  },
+  "gitHead": "d37912706ccb73780e3995666e8c9990afeea9ec"
 }
