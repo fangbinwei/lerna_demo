@@ -1,6 +1,6 @@
 {
   "name": "plugin-2-lerna",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "> TODO: description",
   "author": "fangbinwei <fangbinwei@yeah.net>",
   "homepage": "https://github.com/fangbinwei/lerna_demo#readme",
@@ -28,6 +28,6 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "plugin-1-lerna": "^3.2.1"
+    "plugin-1-lerna": "^2.0.0"
   }
 }
