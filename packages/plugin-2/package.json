@@ -1,6 +1,7 @@
 {
   "name": "plugin-2",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "gitHead": "4f852e57903060fa69d2e9f8abee6ae884c1d93e"
 }
