@@ -8,3 +8,4 @@ module.exports = {
 }
 
 const fix = 'plugin2 fix bug'
+const feat = 'plugin2 feat'
