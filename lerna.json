@@ -7,8 +7,7 @@
       "ignoreChanges": [
         "ignored-file",
         "*.md"
-      ],
-      "message": "chore(release): publish"
+      ]
     }
   },
   "version": "2.2.0"
