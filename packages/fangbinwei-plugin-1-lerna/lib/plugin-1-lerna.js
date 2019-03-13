@@ -8,3 +8,5 @@ module.exports = {
 const change1 = 'plugin1 add new fea'
 
 const change2 = 'plugin1 fix bug'
+
+const change2 = 'plugin1 fix bug2'
