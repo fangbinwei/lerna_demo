@@ -1,6 +1,9 @@
 {
   "npmClient": "yarn",
   "name": "lerna-demo",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s"
+  },
   "devDependencies": {
     "conventional-changelog-cli": "^2.0.12",
     "lerna": "^3.13.1"
