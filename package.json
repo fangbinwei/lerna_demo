@@ -2,6 +2,7 @@
   "npmClient": "yarn",
   "name": "lerna-demo",
   "devDependencies": {
+    "conventional-changelog-cli": "^2.0.12",
     "lerna": "^3.13.1"
   }
 }
