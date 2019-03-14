@@ -1,14 +1,31 @@
 {
-  "npmClient": "yarn",
   "name": "lerna-demo",
   "scripts": {
+    "commit": "npx git-cz",
     "changelog": "node scripts/genChangelog.js run"
   },
+  "version": "1.2",
   "devDependencies": {
-    "@vue/conventional-changelog": "^0.1.1",
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "commitizen": "^3.0.7",
     "conventional-changelog": "^3.0.6",
-    "conventional-changelog-angular": "^5.0.3",
+    "cz-customizable": "^5.5.3",
+    "eslint": "^5.15.1",
+    "eslint-plugin-vue-libs": "^3.0.0",
     "execa": "^1.0.0",
+    "husky": "^1.3.1",
     "lerna": "^3.13.1"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+"config": {
+  "commitizen": {
+    "path": "node_modules/cz-customizable"
   }
+}
+
 }
