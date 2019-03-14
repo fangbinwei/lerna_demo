@@ -10,6 +10,4 @@ const change2 = 'plugin1 fix bug'
 
 const change3 = 'plugin1 fix bug2'
 
-const change4 = 'plugin1 new feat'
-
 
